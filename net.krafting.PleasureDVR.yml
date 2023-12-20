@@ -24,7 +24,7 @@ modules:
     sources:
       - type: git
         url: https://gitlab.com/Krafting/pleasure-dvr-gtk
-        tag: '1.1'
+        tag: '1.2'
 
   - chaturbate-dvr.json
 

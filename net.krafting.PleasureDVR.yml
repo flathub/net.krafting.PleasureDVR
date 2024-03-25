@@ -14,18 +14,18 @@ finish-args:
   -  --filesystem=xdg-videos
 
 modules:
+  - chaturbate-dvr.json
+
+  - python3-psutil.json
+  
   - name: PleasureDVR
     buildsystem: simple
     build-commands:
       - install -Dm755 PleasureDVR.py /app/bin/PleasureDVR.py
       - install -Dm 0644 net.krafting.PleasureDVR.desktop  /app/share/applications/net.krafting.PleasureDVR.desktop
       - install -Dm 0644 net.krafting.PleasureDVR.metainfo.xml  /app/share/metainfo/net.krafting.PleasureDVR.metainfo.xml
-      - install -Dm 0644 images/pleasuredvr-512x512.png /app/share/icons/hicolor/256x256/apps/net.krafting.PleasureDVR.png
+      - install -Dm 0644 images/net.krafting.PleasureDVR.png /app/share/icons/hicolor/256x256/apps/net.krafting.PleasureDVR.png
     sources:
       - type: git
         url: https://gitlab.com/Krafting/pleasure-dvr-gtk
-        tag: '1.2.1'
-
-  - chaturbate-dvr.json
-
-  - python3-psutil.json
+        tag: '1.2.2'

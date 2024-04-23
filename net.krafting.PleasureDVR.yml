@@ -28,4 +28,5 @@ modules:
     sources:
       - type: git
         url: https://gitlab.com/Krafting/pleasure-dvr-gtk
-        tag: '1.3.0'
+        tag: '1.4.0'
+        commit: 1c710c852ba22f75fa03cb6ba04325cd7ababad4

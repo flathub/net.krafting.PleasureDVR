@@ -22,11 +22,12 @@ modules:
     buildsystem: simple
     build-commands:
       - install -Dm755 PleasureDVR.py /app/bin/PleasureDVR.py
+      - cp -r utils/ /app/bin/utils/
       - install -Dm 0644 net.krafting.PleasureDVR.desktop  /app/share/applications/net.krafting.PleasureDVR.desktop
       - install -Dm 0644 net.krafting.PleasureDVR.metainfo.xml  /app/share/metainfo/net.krafting.PleasureDVR.metainfo.xml
       - install -Dm 0644 images/net.krafting.PleasureDVR.png /app/share/icons/hicolor/256x256/apps/net.krafting.PleasureDVR.png
     sources:
       - type: git
         url: https://gitlab.com/Krafting/pleasure-dvr-gtk
-        tag: '1.6.0'
-        commit: 294ad313fa227c5ab431185345dab1c17c477b1a
+        tag: '1.7.0'
+        commit: 02368dfa9743aae973db2a5b3885f39560a8519e

@@ -1,6 +1,6 @@
 app-id: net.krafting.PleasureDVR
 runtime: org.gnome.Platform
-runtime-version: '46'
+runtime-version: '47'
 sdk: org.gnome.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.golang
@@ -29,5 +29,5 @@ modules:
     sources:
       - type: git
         url: https://gitlab.com/Krafting/pleasure-dvr-gtk
-        tag: '1.7.0'
-        commit: 02368dfa9743aae973db2a5b3885f39560a8519e
+        tag: '1.7.1'
+        commit: b45370ead1be1675f7108c63d215d6247a5aa094

@@ -17,7 +17,9 @@ modules:
   - chaturbate-dvr.json
 
   - python3-psutil.json
-  
+
+  - libportal.json
+
   - name: PleasureDVR
     buildsystem: simple
     build-commands:
@@ -29,8 +31,8 @@ modules:
     sources:
       - type: git
         url: https://gitlab.com/Krafting/pleasure-dvr-gtk
-        tag: '1.7.1'
-        commit: b45370ead1be1675f7108c63d215d6247a5aa094
+        tag: '1.8.0'
+        commit: 903010ef940e4baf5b90be1d7e82ba7694874fb6
         x-checker-data:
           type: git,
           tag-pattern: '^([\d.]+)$'

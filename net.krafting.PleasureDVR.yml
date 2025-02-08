@@ -6,12 +6,12 @@ sdk-extensions:
   - org.freedesktop.Sdk.Extension.golang
 command: PleasureDVR.py
 finish-args:
-  -  --share=ipc
-  -  --device=dri
-  -  --share=network
-  -  --socket=wayland
-  -  --socket=fallback-x11
-  -  --filesystem=xdg-videos
+  - --share=ipc
+  - --device=dri
+  - --share=network
+  - --socket=wayland
+  - --socket=fallback-x11
+  - --filesystem=xdg-videos
 
 modules:
   - chaturbate-dvr.json
@@ -31,6 +31,6 @@ modules:
     sources:
       - type: git
         url: https://gitlab.com/Krafting/pleasure-dvr-gtk
-        tag: '1.8.0'
-        commit: ff951a7817274a3ca321531b4ef679d240d7bb76
+        tag: 1.8.1
+        commit: d48845d57a56d0d8ef433be34445deb1b6b0e328
         x-checker-data: {type: git, tag-pattern: '^([\d.]+)$'}

@@ -28,9 +28,10 @@ modules:
       - install -Dm 0644 net.krafting.PleasureDVR.desktop  /app/share/applications/net.krafting.PleasureDVR.desktop
       - install -Dm 0644 net.krafting.PleasureDVR.metainfo.xml  /app/share/metainfo/net.krafting.PleasureDVR.metainfo.xml
       - install -Dm 0644 images/Logo2025/net.krafting.PleasureDVR.svg /app/share/icons/hicolor/scalable/apps/net.krafting.PleasureDVR.svg
+      - install -Dm 0644 images/icons-symbolic/* /app/share/icons/hicolor/scalable/apps/
     sources:
       - type: git
         url: https://gitlab.com/Krafting/pleasure-dvr-gtk
-        tag: 2.1.3
-        commit: ee1b73c7f6938920149bd6fecc8822ff1fd3cae8
+        tag: 2.1.6
+        commit: de2c3a128f23dcdff84a37a1333e9ddb54659864
         x-checker-data: {type: git, tag-pattern: '^([\d.]+)$'}

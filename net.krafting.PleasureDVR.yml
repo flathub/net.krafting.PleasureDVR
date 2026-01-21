@@ -32,6 +32,6 @@ modules:
     sources:
       - type: git
         url: https://gitlab.com/Krafting/pleasure-dvr-gtk
-        tag: 2.1.6
-        commit: de2c3a128f23dcdff84a37a1333e9ddb54659864
+        tag: 2.2.2
+        commit: 569940b6101b806a2a91d58355550e9bf0fab60f
         x-checker-data: {type: git, tag-pattern: '^([\d.]+)$'}

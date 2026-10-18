@@ -1,6 +1,6 @@
 app-id: net.krafting.PleasureDVR
 runtime: org.gnome.Platform
-runtime-version: '50'
+runtime-version: '51'
 sdk: org.gnome.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.golang
@@ -14,7 +14,7 @@ finish-args:
   - --filesystem=xdg-videos
 
 modules:
-  - chaturbate-dvr.json
+  - goondvr.json
 
   - python3-psutil.json
 

@@ -1,5 +1,5 @@
 {
-    "name": "chaturbate-dvr",
+    "name": "goondvr",
     "buildsystem": "simple",
     "build-options": {
         "append-path": "/usr/lib/sdk/golang/bin"
@@ -12,8 +12,8 @@
         {
             "type": "git",
             "url": "https://github.com/HeapOfChaos/goondvr",
-            "tag": "v3.1.1",
-            "commit": "4d90c6504a176dcec4dec7989129f327c4fdae29"
+            "tag": "v4.0.1",
+            "commit": "2685d949e2cbfd1074aa0ecb0cd131bd862c8045"
         },
         {
             "dest": "vendor",

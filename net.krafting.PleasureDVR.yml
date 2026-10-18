@@ -18,8 +18,6 @@ modules:
 
   - python3-psutil.json
 
-  - libportal.json
-
   - name: PleasureDVR
     buildsystem: simple
     build-commands:
